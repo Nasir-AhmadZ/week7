@@ -21,7 +21,9 @@ public class UsingTryCatch {
                     System.out.println("Not a valid number");
                 }
 
-            } catch (NumberFormatException e) {
+            }
+            //If the input is a character this will print an error
+            catch (NumberFormatException e) {
                 System.out.println("Enter a valid numeric value");
             }
         }
